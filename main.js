@@ -49,7 +49,7 @@ calcul_imc();
 function reset(txt, bouton){
     const btn = document.createElement('button');
     document.body.appendChild(btn);
-    btn.innerHTML = "réanitialisé le formulaire";
+    btn.innerHTML = "réinitialiser le formulaire";
     btn.addEventListener('click', function () {
         const formulaire = document.getElementsByTagName('form')[0];
         formulaire.reset();
